@@ -7,7 +7,7 @@ int main()
 cout<<"Введіть 9 дійсних чисел:\n";
 for(int i=0;i<9;i++)
 {cin >> a[i];
- //Перевірка
+ if (a[0]<a[i])
   k++;}
 cout << "k = " << k << endl;
  return 0;
